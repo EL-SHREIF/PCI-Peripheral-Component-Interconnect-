@@ -20,14 +20,13 @@ PCI::PCI(QWidget *parent) :
     ui(new Ui::PCI)
 {
     ui->setupUi(this);
-
-
+    QPixmap pix=(QString::fromUtf8("image.png"));
+    //pix->setSize(500,200);
+    ui->kk->setPixmap(pix);
     //==========================================================
     ui->data_enter->setMaxLength(int(24));
     ui->no->setMaxLength(int(1));
     ui->index_enter->setMaxLength(int(2));
-
-
     //============================================================
     QLineSeries *series = new QLineSeries();
     QChart *chart = new QChart();
@@ -164,6 +163,11 @@ void PCI::on_arb_2_clicked()
     //write mode===================================
     if(ui->R2->isChecked())
     {
+        if(no>3||no<1)
+        {
+            QMessageBox::information(this,tr("error in the input numbers"),tr("please enter valid senarios <3"));
+        }
+        else{
         int hello=BUS.write(no,c1,c2,s);
         if ( ui->chart->layout() != NULL )
         {
@@ -331,13 +335,18 @@ void PCI::on_arb_2_clicked()
                 for(int i = 0; i < 10; i++){
                         ui->TC->item(i,0)->setText(DV_C.read(i+1));
                 }
-            }
+            }}
         }
     }
 
     //read mode here ============>>>>
     else if(ui->R1->isChecked())
     {
+        if(no>3||no<1 || read_idx>10 || read_idx<1 )
+        {
+            QMessageBox::information(this,tr("error in the input numbers"),tr("please enter valid senarios <3"));
+        }
+        else{
         int hello=BUS.Read(no,c1,c2,read_idx);
         if ( ui->chart->layout() != NULL )
         {
@@ -538,7 +547,7 @@ void PCI::on_arb_2_clicked()
                 for(int i = 0; i < 10; i++){
                          ui->TC->item(i,0)->setText(DV_C.read(i+1));
                 }
-            }
+            }}
         }
 
     }

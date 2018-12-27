@@ -15,6 +15,7 @@
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -76,6 +77,7 @@ public:
     QPushButton *arb_16;
     QPushButton *arb_17;
     QPushButton *arb_18;
+    QLabel *kk;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -668,7 +670,7 @@ public:
         arb_2 = new QPushButton(centralWidget);
         arb_2->setObjectName(QStringLiteral("arb_2"));
         arb_2->setEnabled(true);
-        arb_2->setGeometry(QRect(540, 310, 111, 41));
+        arb_2->setGeometry(QRect(540, 310, 161, 71));
         arb_2->setFont(font1);
         arb_2->setCursor(QCursor(Qt::PointingHandCursor));
         arb_2->setStyleSheet(QLatin1String("QPushButton\n"
@@ -876,6 +878,10 @@ public:
 "color: white;\n"
 "  background: #895C94;\n"
 "}"));
+        kk = new QLabel(centralWidget);
+        kk->setObjectName(QStringLiteral("kk"));
+        kk->setEnabled(true);
+        kk->setGeometry(QRect(20, 400, 591, 211));
         PCI->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(PCI);
         menuBar->setObjectName(QStringLiteral("menuBar"));
@@ -1014,6 +1020,7 @@ public:
         arb_16->setText(QApplication::translate("PCI", "I_RDY", 0));
         arb_17->setText(QApplication::translate("PCI", "TRDY", 0));
         arb_18->setText(QApplication::translate("PCI", "DEVSEL", 0));
+        kk->setText(QApplication::translate("PCI", "TextLabel", 0));
     } // retranslateUi
 
 };
