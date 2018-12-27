@@ -22,9 +22,12 @@ GUI : it make instance of 3 devices with the arbiter and it enable you to read a
 
 **You can find the output in the following pictures.**
 
-## Core Contributors
-[@elshreif]<br>
-[@halitmohamed]<br>
-[@khaledloda]<br>
+THe GUI :
+from here you can choose the mode and device to read and write and see the memory of each device 
+<img src="images/capture1.png" alt="choose mode" width="800px">
+after you click simulate you will see the wave forms that show each signal in the BUS 
+<img src="images/capture2.png" alt="choose mode" width="800px">
+the gui support read mode write mode for 3 transactions and 3 devices memory
+the gui support animation dynamic while drawing the waveforms 
 
 
