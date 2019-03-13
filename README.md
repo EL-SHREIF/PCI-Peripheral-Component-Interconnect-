@@ -35,10 +35,10 @@ after you click simulate you will see the wave forms that show each signal in th
 the gui support read mode write mode for 3 transactions and 3 devices memory
 the gui support animation dynamic while drawing the waveforms 
 <br>
-some screenshots of web-base-gui:
-<img src="images/device.JPG>
-<img src="images/PCI.JPG>
-<img src="images/why.JPG>
+some screenshots of web-based-gui:
+<img src="images/device.JPG">
+<img src="images/PCI.JPG">
+<img src="images/why.JPG">
 
 
  
