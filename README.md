@@ -15,7 +15,7 @@
 ## How to Run
 -for the hardware (verilog) code you will need to copy it in modelsim or xilion and debug in it
 -for the GUI you can run the excutable file only .
--for web
+-for web download code and you can see the result on your browser.
 
 #### Challenges
 Hardware : it was diffecult to make diffrent modes from the Arbiter Circuit like : (Round Roben - First Come First Serve - Piroity ) and also about how to make the device handle all the cases and communicate with the device to read and write 
