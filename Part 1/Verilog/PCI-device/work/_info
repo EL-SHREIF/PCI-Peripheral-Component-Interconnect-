@@ -1,0 +1,333 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/computer 3rd year/report verilog
+varbiter_priority
+Z0 !s110 1545945121
+!i10b 1
+!s100 cOK8dD2^kD_Zeg0lNFcBa2
+IK3<Vjmfd?>d8K^l3YbWQ03
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/computer 3rd year/PCI project/Verilog
+Z3 w1545937308
+Z4 8E:/computer 3rd year/PCI project/Verilog/PCI_device.v
+Z5 FE:/computer 3rd year/PCI project/Verilog/PCI_device.v
+L0 248
+Z6 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z7 !s108 1545945121.000000
+Z8 !s107 E:/computer 3rd year/PCI project/Verilog/PCI_device.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|E:/computer 3rd year/PCI project/Verilog/PCI_device.v|
+!s101 -O0
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vFSM_SequenceDetector
+Z11 !s110 1546731457
+!i10b 1
+!s100 fgSEU1_OdYfcUmEQ@@T693
+I3M`I:jDQ2oUCV2HJ4SI550
+R1
+R2
+Z12 w1546731451
+Z13 8E:/computer 3rd year/PCI project/Verilog/mozkra.v
+Z14 FE:/computer 3rd year/PCI project/Verilog/mozkra.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z15 !s108 1546731456.000000
+Z16 !s107 E:/computer 3rd year/PCI project/Verilog/mozkra.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|E:/computer 3rd year/PCI project/Verilog/mozkra.v|
+!s101 -O0
+!i113 1
+R10
+n@f@s@m_@sequence@detector
+vFSM_SequenceDetector_TB
+R11
+!i10b 1
+!s100 Y8j_8^[U80aTe[cL]DJ1W1
+IWXaGLzd;]onfQ<azk044N2
+R1
+R2
+R12
+R13
+R14
+L0 49
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+R10
+n@f@s@m_@sequence@detector_@t@b
+vIF_ID
+Z18 !s110 1549766380
+!i10b 1
+!s100 S9H_QTb1ZNGR:>doO`Jc53
+IZbR]jHJeH97TY2[Zm_Umg1
+R1
+R2
+Z19 w1549766377
+Z20 8E:/computer 3rd year/MIPS ya rab/fetching stage.v
+Z21 FE:/computer 3rd year/MIPS ya rab/fetching stage.v
+L0 2
+R6
+r1
+!s85 0
+31
+Z22 !s108 1549766380.000000
+Z23 !s107 E:/computer 3rd year/MIPS ya rab/fetching stage.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|E:/computer 3rd year/MIPS ya rab/fetching stage.v|
+!s101 -O0
+!i113 1
+R10
+n@i@f_@i@d
+vinstructionmemory
+R18
+!i10b 1
+!s100 2ASlz<]`3QJ^XoBViFhl@3
+IZK[eG9HZJo;J5zF?eiT2c1
+R1
+R2
+R19
+R20
+R21
+L0 35
+R6
+r1
+!s85 0
+31
+R22
+R23
+R24
+!s101 -O0
+!i113 1
+R10
+vMUX2_1
+Z25 !s110 1546560825
+!i10b 1
+!s100 S9cNgoWg9[PRTlfBZchW21
+I5^zE;AB8gPO8m>XzVccAC2
+R1
+R2
+Z26 w1546560821
+R13
+R14
+L0 16
+R6
+r1
+!s85 0
+31
+Z27 !s108 1546560825.000000
+R16
+R17
+!s101 -O0
+!i113 1
+R10
+n@m@u@x2_1
+vMUX4_1
+R25
+!i10b 1
+!s100 KJRBnLQ`OEGlZ`5zIK03=0
+IWmQ:NJ8V`k15GKC2LWmkP3
+R1
+R2
+R26
+R13
+R14
+L0 2
+R6
+r1
+!s85 0
+31
+R27
+R16
+R17
+!s101 -O0
+!i113 1
+R10
+n@m@u@x4_1
+vpc
+R18
+!i10b 1
+!s100 ni^o]3`?8RCDgc=dbfYV41
+I4P0XTVWVC;=^=<K]z]=Cf1
+R1
+R2
+R19
+R20
+R21
+Z28 L0 24
+R6
+r1
+!s85 0
+31
+R22
+R23
+R24
+!s101 -O0
+!i113 1
+R10
+vPCI_device
+Z29 !s110 1546557907
+!i10b 1
+!s100 b]O6J1=N>cNN;BM^WGI831
+IFDXmVgi=Jm>=lR8R8TlP03
+R1
+R2
+Z30 w1545946034
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+Z31 !s108 1546557906.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@p@c@i_device
+vQ2_2015_TB
+R25
+!i10b 1
+!s100 jeJbcHYo_mz^I<Om?;=<40
+I@EfO4BUm^:J]IZ:c9Hi7k1
+R1
+R2
+R26
+R13
+R14
+L0 36
+R6
+r1
+!s85 0
+31
+R27
+R16
+R17
+!s101 -O0
+!i113 1
+R10
+n@q2_2015_@t@b
+vtb
+R0
+!i10b 1
+!s100 ;;?m^6zl3VdVSzKhoSO]e1
+IDG2^WEEn[KHoZPJDiol<[3
+R1
+R2
+R3
+R4
+R5
+L0 435
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vtb2
+!s110 1545792671
+!i10b 1
+!s100 A^_WU[hZ00Inli<]nW<BL2
+IOSOWH6fz[1C26CRzK46`T0
+R1
+R2
+w1545791952
+R4
+R5
+L0 147
+R6
+r1
+!s85 0
+31
+!s108 1545792671.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vtb_read
+R29
+!i10b 1
+!s100 H0ibkKGLaL^Kehoz1Z9H31
+IV6;Oa9C[7OCXIk6Z5VkSj3
+R1
+R2
+R30
+R4
+R5
+L0 238
+R6
+r1
+!s85 0
+31
+R31
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vtopmodule
+R0
+!i10b 1
+!s100 GVeAWLmzzogFBD04kjEdm1
+I5kXo5j2QL<4h]3ia_Dc410
+R1
+R2
+R3
+R4
+R5
+L0 332
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vtopModule_Q2
+R25
+!i10b 1
+!s100 :REJ6MljoFlB6l7<2QQdl1
+IEa3SaEBFW0jWAO8UoQU7E2
+R1
+R2
+R26
+R13
+R14
+R28
+R6
+r1
+!s85 0
+31
+R27
+R16
+R17
+!s101 -O0
+!i113 1
+R10
+ntop@module_@q2

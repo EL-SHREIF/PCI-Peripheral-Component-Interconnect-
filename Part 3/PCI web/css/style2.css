@@ -1,0 +1,78 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+body
+{
+	font-family: "Raleway",sans-serif;
+	overflow-y:scroll;
+	overflow-x:hidden;
+
+}
+p{
+	font-size: 14px;
+}
+/*=======footer==========*/
+.footer
+{
+	background-color: #1a1a1a;
+	padding-bottom: 35px;
+	padding-top: 35px;
+	border-bottom: 3px solid #129cf3;
+}
+#copyright
+{
+	width: 50%;
+}
+#copyright p
+{
+	color:orange;
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+#copyright p a
+{
+	text-decoration:none;
+	color:orange;
+
+}
+
+/*cover*/
+
+#cover
+{
+	border: solid black 2px;
+	display: inline-block;
+	height: 100%;
+	border-radius: 30px;
+}
+
+h1,h3,h4,h5,h6
+{
+	text-align: center;
+}
+h1
+{
+	text-transform: uppercase;
+	font-family:serif;
+}
+h3
+{
+	font-family: Arial;
+}
+h4
+{
+	font-family: Trebuchet MS Bold Italic;
+}
+h5
+{
+	font-family: Georgia;
+}
+
+h6
+{
+	font-family: Georgia;
+
+}

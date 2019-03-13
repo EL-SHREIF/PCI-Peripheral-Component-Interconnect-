@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+    
+        <title>PCI project </title>
+		<meta charset="utf-8">
+        
+        <meta name="description" content="Simple, clean, responsive website built with html5, CSS3, Js, jQuery and Bootstrap">
+        
+		<!--google-Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+		<!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        
+             
+    </head>
+    
+    
+    <body>
+    		<header class="header" id="HOME">
+    			<!---navigation bar-->
+				<nav class="navbar navbar-default navbar-fixed-top">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">
+						    	<span class="sr-only">Toggle navigation</span>
+						    	<span class="icon-bar"></span>
+						    	<span class="icon-bar"></span>
+						    	<span class="icon-bar"></span>
+						    </button>
+						  	
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+						    <ul class="nav navbar-nav navbar-right">
+						        
+							        <li><a href="#HOME" class="nav-item">HOME</a></li>
+							        <li><a href="#ABOUT" class="nav-item">ABOUT</a></li>
+							        <li><a href="#FEATURES" class="nav-item">Device</a></li>
+							        <li><a href="#SCREENS" class="nav-item">Arbitar</a></li>
+							        
+							        
+							        
+						       
+						    </ul>
+						   
+						   
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+    				  <div class="header">
+    				  		<div class="header-overlay">
+    				  			<div class="container header-container">
+    				  				
+    				  				<div class="row">
+    				  					<div class="col-md-8">
+    				  						<div class="header-text">
+    				  							<!-- Title & Description -->
+                                				<h1> PCI PROTOCOL</h1>
+                               					<p> Built with great love!</p>
+    				  						</div>
+    				  					
+    				  					</div>
+    				  					<div class="col-md-3 col-md-offset-1">
+    				  						<div class="header-iphone">
+    				  							<!-- Header iPhone -->
+                                				<img src="images/PCI1.jpg" alt = "PCI">
+    				  						</div>
+    				  						
+    				  					</div>
+    				  				</div>
+    				  			</div>
+    				  		</div>
+    				  </div>
+    		</header>
+    		<!--about us-->
+    		<section id="ABOUT">
+    				<div class="container">
+    					<div class="row">
+    						<div class="col-md-10-offset-1">
+    							<!--about us title and description-->
+    							<div class="section-title">
+    								<h2>About us </h2>
+    								<p>In this project, it is required to model the whole PCI communication protocol in verilog. There are two main modules : 1- Device 2- Arbiter
+
+The Arbiter operates in a “Priority” mode.
+
+For every “Device”, there is a special input called “force_request” for testing purposes. This input works as a trigger for the req output signal. This way, it is possible to trigger any request from any device. If the “force_req” signal is asserted for one cycle, then the device will want the bus for one transaction. If it was asserted for two cycles, the device should want the bus for two different transactions and act accourdingly, and so on. Also, there is another signal (again for testing purposes) called “AddressToContact”. Whenever it is asserted, the address of the target should be set. Each device must have a unique address.</p>
+    							
+    						</div>
+    						
+    					</div>
+    				</div>
+    				<div class="choose-us-wrapper">
+    					<div class="container">
+    					<div class="row">
+    						<div class="col-md-6">
+    							<!--About iphone-->
+    							<div class="about-iphone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+    								<img  height="200px;" width="300px;" src="images/PCI_back.jpg" alt="iphone">
+    							</div>
+    							
+    							
+    						</div>
+
+    						<div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+    							<!--why choose us title-->
+    							<div class="choose-us-title">
+    								<h2>why choose us</h2>
+    								<p>Building complete gui and web for the next generation</p>
+    							</div>
+    							<!--why choose us description-->
+    							<div class="choose-us-des">
+    								<!--choose us item 1-->
+    								<div class="choose-us-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+    									<!--choose us item icon-->
+    									<div><i class="fa fa-bolt"></i></div>
+    									<!--choose us item title and des-->
+    									<h3>GUI</h3>
+    									<p>gui that build the wave by wave</p>
+    								</div>
+    								<!--choose us item 2-->
+    								<div class="choose-us-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+    									<!--choose us item icon-->
+    									<div><i class="fa fa-bullhorn"></i></div>
+    									<!--choose us item title and des-->
+    									<h3>web</h3>
+    									<p>building web that explains everything of PCI</p>
+    								</div>
+    								
+    							</div>
+    						</div>
+    					</div>	
+    					</div>
+    				</div>
+    		</section>
+    		<!--testimonials-->
+            <section class="testimonial">
+            	<div class="testimonial-overlay">
+            		<div class="container">
+            			<div class="row">
+            				<div class="col-md-12 wow bounceInDown">
+            					<div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+
+            						<!--indicators-->
+            						<ol class="carousel-indicators">
+    										<li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+   											 <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+   											 <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+   											   <li data-target="#carousel-testimonial" data-slide-to="3"></li>
+   											     <li data-target="#carousel-testimonial" data-slide-to="4"></li>
+   											        <li data-target="#carousel-testimonial" data-slide-to="5"></li>
+
+
+  									</ol>
+
+  									<!--wrapper for slides-->
+  									<div class="carousel-inner">
+  										<!--item01-->
+  										<div class="item active text-center">
+  											<img height="300px" width="150px;" src="images/shiko.jpg" alt="testimonial" class="center-block">
+  										
+  											<div class="testimonial-caption">
+  												<h2>DR.shiko</h2>	
+  												<h4><span>sr.software Engineer,</span>Egypt</h4>
+  												<p>“Responsible for the gui”</p>
+  											</div>
+  										</div>
+  										<!--item02-->
+  										<div class="item text-center">
+  											<img height="300px" width="150px;" src="images/khaled.jpg" alt="testimonial" class="center-block">
+  										
+  											<div class="testimonial-caption">
+  												<h2>Khaled abdelgalil</h2>	
+  												<h4><span>Web developer</span>,America</h4>
+  												<p>“Responsible for web building and device verilog code”</p>
+  											</div>
+  										</div>
+  										<!--item03-->
+  										<div class="item text-center">
+  											<img height="300px" width="150px;" src="images/fateh.jpg" alt="testimonial" class="center-block">
+  										
+  											<div class="testimonial-caption">
+  												<h2>khaled mohammed</h2>	
+  												<h4><span>Digital design,</span>England</h4>
+  												<p>“Responsible for coding of arbitar”</p>
+
+  											</div>
+
+  										</div>
+  										<div class="item text-center">
+  											<img height="300px" width="150px;" src="images/amr.jpg" alt="testimonial" class="center-block">
+  										
+  											<div class="testimonial-caption">
+  												<h2>Amr HBK</h2>	
+  												<h4><span>Digital design,</span>Russia</h4>
+  												<p>“Responsible for testing of arbitar”</p>
+
+  											</div>
+  								
+  										</div>
+  										<div class="item text-center">
+  											<img height="300px" width="150px;" src="images/eslam.jpg" alt="testimonial" class="center-block">
+  										
+  											<div class="testimonial-caption">
+  												<h2>eslam solari</h2>	
+  												<h4><span>Digital design,</span>Russia</h4>
+  												<p>“Responsible for coding of device”</p>
+
+  											</div>
+  								
+  										</div>
+  										<div class="item text-center">
+  											<img height="300px" width="150px;" src="images/marwan.jpg" alt="testimonial" class="center-block">
+  										
+  											<div class="testimonial-caption">
+  												<h2>Marwan</h2>	
+  												<h4><span>Digital design,</span>France</h4>
+  												<p>“Responsible for testing of device”</p>
+
+  											</div>
+  								
+  									</div>
+            					</div>
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+            <!--features-->
+            <section class="features" id="FEATURES">
+            	<div class="container">
+            		<div class="row">
+            			<div class="col-md-10 col-md-offset-1">
+            				<div class="section-title wow fadeIn" data-wow-duration="1s">
+            					<h2>Device</h2>
+            				
+            			
+            			</div>
+            		</div>
+            	</div>
+            	<div class="features-inner-wrapper">
+            		<div class="container">
+            			<div class="row">
+            				<div class="col-md-4">
+            					<!--left feature item 01-->
+            					<div class="left-feature-item wow fadeInLeft" data-wow-duration="1s">
+            						<!--icon-->
+            						<div class="left-feature-item-icon">
+            							<i class="fa fa-desktop"></i>
+            						</div>
+            						<!--feature item title&description-->
+            						<h3>MASTER READ</h3>
+            						
+            					</div>
+            					
+            					<!--left feature item 02-->
+            					<div class="left-feature-item">
+            						<!--icon-->
+            						<div class="left-feature-item-icon">
+            							<i class="fa fa-mobile"></i>
+            						</div>
+            						<!--feature item title&description-->
+            						<h3>MASTER WRITE</h3>
+            						
+            					</div>
+            					
+            					<!--left feature item 03-->
+            					<div class="left-feature-item">
+            						<!--icon-->
+            						<div class="left-feature-item-icon">
+            							<i class="fa fa-eye"></i>
+            						</div>
+            						<!--feature item title&description-->
+            						<h3>SLAVE READ</h3>
+            						
+            					</div>
+            					
+            				</div>
+            				<div class="col-md-4">
+            					<div class="feature-iphone wow bounceIn" data-wow-duration="1s">
+            						<img src="images/AllDevices (1).jpg" alt="feature iphone">
+            					</div>
+            						
+            				</div>
+            				
+            				<div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
+            					<!--right feature item 01-->
+            					<div class="right-feature-item">
+            						<!--icon-->
+            						<div class="right-feature-item-icon">
+            							<i class="fa fa-certificate"></i>
+            						</div>
+            						<!--feature item title&description-->
+            						<h3>SLAVE WRITE</h3>
+            						
+            					</div>
+            					
+            					<!--right feature item 02-->
+            					<div class="right-feature-item">
+            						<!--icon-->
+            						<div class="right-feature-item-icon">
+            							<i class="fa fa-rss"></i>
+            						</div>
+            						<!--feature item title&description-->
+            						<h3>Not_anything</h3>
+
+            						<!--right feature item 02-->
+            					<div class="right-feature-item">
+            						
+            						<!--feature item title&description-->
+            						<h3><a href="device.html">device</a></h3>
+            					</div>
+            					
+            					
+            					
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+            
+            <!--screens-->
+            <section class="screens" id="SCREENS">
+            	<div class="container">
+            		<div class="row">
+            			<div class="col-md-10 col-md-offset-1">
+            				<div class="section-title">
+            					<h2>arbitar</h2>
+            					<p> priority ,robin round,FCFS</p>
+            					<img src="images/arbiter_priority.png" style="display: inline;text-align: center;">
+            					<img src="images/arbiter_roundrobin.png" style="display: inline;text-align: center;">
+            					<img src="images/arbiter_fcfs.png" style="display: inline;text-align: center;">
+            					
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            	
+            </section>
+            <!--counters-->
+            <section class="counter">
+            	<div class="counter-overlay">
+            		<div class="container wow bounceInLeft" data-wow-duration="1s">
+            			<div class="row text-center">
+            				<div class="col-md-3">
+            					<div class="counter-item">
+            						<div><i class="fa fa-cloud-download"></i></div>
+            						<h2><span class="counter-num">1588</span><span>+</span></h2>
+            						<p>Downloads</p>
+            					</div>
+            				</div>
+            				<div class="col-md-3">
+            					<div class="counter-item">
+            						<div><i class="fa fa-gift"></i></div>
+            						<h2><span class="counter-num">3500</span><span>+</span></h2>
+            						<p>Awards</p>
+            					</div>
+            				</div>
+            				<div class="col-md-3">
+            					<div class="counter-item">
+            						<div><i class="fa fa-heart-o"></i></div>
+            						<h2><span class="counter-num">199</span><span>+</span></h2>
+            						<p>Likes</p>
+            					</div>
+            				</div>
+            				<div class="col-md-3">
+            					<div class="counter-item">
+            						<div><i class="fa fa-check"></i></div>
+            						<h2><span class="counter-num">1066</span><span>+</span></h2>
+            						<p>Recomended</p>
+            					</div>
+            				</div>
+            				
+            			</div>
+            		</div>
+            	</div>
+            	
+      
+        	
+ 			<!--footer-->
+ 			<footer class="footer">
+ 				<div class="container">
+ 					<div class="row">
+ 						<div class="col-md-6">
+ 							<div id="copyright">
+ 								<p>Copyright &copy:2016<a href="#">-A7la Masro3</a></p>
+ 							</div>
+ 						</div>
+ 						<div class="col-md-6">
+ 							<div class="scroll-top">
+ 								<a href="#HOME" id="scroll-smooth-top" ><i class="fa fa-angle-up"></i></a>
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</footer>
+            <!-- JS -->
+            <!-- Bootstrap JavaScript -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- Bx Slider JS -->
+        <script src="js/jquery.bxslider.min.js"></script>
+        
+        <!-- Add JS counter lib -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        
+        <!-- Add wow js lib -->
+        <script src="js/wow.min.js"></script>
+      
+        <!-- Custom Js -->
+        <script src="js/custom.js"></script>
+    </body>
+
+
+</html>
